@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jaina\\source\\repos\\Movie_Booking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34ACEC0A-69D1-4327-9210-6D17B849B8A1}|Movie_Booking.csproj|c:\\users\\jaina\\source\\repos\\movie_booking\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34ACEC0A-69D1-4327-9210-6D17B849B8A1}|Movie_Booking.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__HARSHAD_MOVIE_BOOKING_APP_DATA_MOVIESDB.MDF/True/SqlTable/dbo.Tbl_User.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34ACEC0A-69D1-4327-9210-6D17B849B8A1}|Movie_Booking.csproj|C:\\Users\\jaina\\source\\repos\\Movie_Booking\\models\\moviehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34ACEC0A-69D1-4327-9210-6D17B849B8A1}|Movie_Booking.csproj|solutionrelative:models\\moviehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34ACEC0A-69D1-4327-9210-6D17B849B8A1}|Movie_Booking.csproj|C:\\Users\\jaina\\source\\repos\\Movie_Booking\\models\\movie_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34ACEC0A-69D1-4327-9210-6D17B849B8A1}|Movie_Booking.csproj|solutionrelative:models\\movie_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34ACEC0A-69D1-4327-9210-6D17B849B8A1}|Movie_Booking.csproj|C:\\Users\\jaina\\source\\repos\\Movie_Booking\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34ACEC0A-69D1-4327-9210-6D17B849B8A1}|Movie_Booking.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34ACEC0A-69D1-4327-9210-6D17B849B8A1}|Movie_Booking.csproj|C:\\Users\\jaina\\source\\repos\\Movie_Booking\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34ACEC0A-69D1-4327-9210-6D17B849B8A1}|Movie_Booking.csproj|solutionrelative:models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34ACEC0A-69D1-4327-9210-6D17B849B8A1}|Movie_Booking.csproj|C:\\Users\\jaina\\source\\repos\\Movie_Booking\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34ACEC0A-69D1-4327-9210-6D17B849B8A1}|Movie_Booking.csproj|solutionrelative:controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\jaina\\source\\repos\\Movie_Booking\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\jaina\\source\\repos\\Movie_Booking\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T04:30:05.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.Tbl_User.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__HARSHAD_MOVIE_BOOKING_APP_DATA_MOVIESDB.MDF/True/SqlTable/dbo.Tbl_User.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__HARSHAD_MOVIE_BOOKING_APP_DATA_MOVIESDB.MDF/True/SqlTable/dbo.Tbl_User.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-10-02T04:30:05.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\jaina\\source\\repos\\Movie_Booking\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\jaina\\source\\repos\\Movie_Booking\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T04:30:05.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Moviehandler.cs",
+              "DocumentMoniker": "C:\\Users\\jaina\\source\\repos\\Movie_Booking\\Models\\Moviehandler.cs",
+              "RelativeDocumentMoniker": "Models\\Moviehandler.cs",
+              "ToolTip": "C:\\Users\\jaina\\source\\repos\\Movie_Booking\\Models\\Moviehandler.cs",
+              "RelativeToolTip": "Models\\Moviehandler.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAwwEwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T04:30:05.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Movie_Category.cs",
+              "DocumentMoniker": "C:\\Users\\jaina\\source\\repos\\Movie_Booking\\Models\\Movie_Category.cs",
+              "RelativeDocumentMoniker": "Models\\Movie_Category.cs",
+              "ToolTip": "C:\\Users\\jaina\\source\\repos\\Movie_Booking\\Models\\Movie_Category.cs",
+              "RelativeToolTip": "Models\\Movie_Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T04:30:05.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\jaina\\source\\repos\\Movie_Booking\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\jaina\\source\\repos\\Movie_Booking\\Models\\Movie.cs",
+              "RelativeToolTip": "Models\\Movie.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T04:30:05.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\jaina\\source\\repos\\Movie_Booking\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\jaina\\source\\repos\\Movie_Booking\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "Controllers\\MovieController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T04:30:05.668Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

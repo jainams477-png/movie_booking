@@ -1,0 +1,80 @@
+﻿@model IEnumerable<movie_booking.Models.booking>
+
+@{
+    ViewBag.Title = "Bookings";
+}
+
+<h2>Bookings</h2>
+
+<p>
+    @Html.ActionLink(
+        "Book New Ticket",
+        "Create",
+        "Booking",
+        null,
+        new { @class = "btn btn-primary" }
+    )
+</p>
+
+<table class="table table-bordered">
+
+    <tr>
+
+        <th>
+            Booking ID
+        </th>
+
+        <th>
+            User ID
+        </th>
+
+        <th>
+            Movie
+        </th>
+
+        <th>
+            Category
+        </th>
+
+        <th>
+            Tickets
+        </th>
+
+        <th>
+            Amount
+        </th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @item.booking_id
+            </td>
+
+            <td>
+                @item.User_ID
+            </td>
+
+            <td>
+                @item.Movie_name
+            </td>
+
+            <td>
+                @item.Cat_Type
+            </td>
+
+            <td>
+                @item.no_tickets
+            </td>
+
+            <td>
+                ₹ @item.amount
+            </td>
+
+        </tr>
+    }
+
+</table>

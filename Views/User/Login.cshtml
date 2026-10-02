@@ -1,0 +1,61 @@
+﻿@model movie_booking.Models.User
+
+@{
+    ViewBag.Title = "User Login";
+}
+
+<h2>User Login</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(
+        true,
+        "",
+        new { @class = "text-danger" }
+    )
+
+    <div>
+        <label>Username</label>
+
+        @Html.TextBoxFor(
+            m => m.User_Name,
+            new
+            {
+                @class = "form-control",
+                placeholder = "Enter Username"
+            }
+        )
+    </div>
+
+    <br />
+
+    <div>
+        <label>Password</label>
+
+        @Html.PasswordFor(
+            m => m.User_password,
+            new
+            {
+                @class = "form-control",
+                placeholder = "Enter Password"
+            }
+        )
+    </div>
+
+    <br />
+
+    if (ViewBag.Message != null)
+    {
+        <div class="text-danger">
+            @ViewBag.Message
+        </div>
+    }
+
+    <br />
+
+    <input
+        type="submit"
+        value="Login"
+        class="btn btn-primary"
+    />
+}

@@ -1,0 +1,162 @@
+﻿@model movie_booking.Models.booking
+
+@{
+    ViewBag.Title = "Book Ticket";
+}
+
+<h2>Book Ticket</h2>
+
+@using (Html.BeginForm())
+{
+    <div class="form-horizontal">
+
+        <h4>Movie Booking</h4>
+        <hr />
+
+        <div class="form-group">
+
+            <label class="control-label col-md-2">
+                User ID
+            </label>
+
+            <div class="col-md-10">
+
+                @Html.TextBoxFor(
+                    x => x.User_ID,
+                    new
+                    {
+                        @class = "form-control"
+                    }
+                )
+
+            </div>
+
+        </div>
+
+        <br />
+
+        <div class="form-group">
+
+            <label class="control-label col-md-2">
+                Movie
+            </label>
+
+            <div class="col-md-10">
+
+                <select name="Movie_ID"
+                        id="Movie_ID"
+                        class="form-control">
+
+                    <option value="">
+                        -- Select Movie --
+                    </option>
+
+                    @foreach (var item in ViewBag.Movies)
+                    {
+                        <option value="@item.Movie_ID"
+                                data-rate="@item.rate">
+
+                            @item.Movie_name - ₹@item.rate
+
+                        </option>
+                    }
+
+                </select>
+
+            </div>
+
+        </div>
+
+        <br />
+
+        <div class="form-group">
+
+            <label class="control-label col-md-2">
+                Number of Tickets
+            </label>
+
+            <div class="col-md-10">
+
+                <input type="number"
+                       name="no_tickets"
+                       id="no_tickets"
+                       class="form-control"
+                       min="1"
+                       value="1" />
+
+            </div>
+
+        </div>
+
+        <br />
+
+        <div class="form-group">
+
+            <label class="control-label col-md-2">
+                Amount
+            </label>
+
+            <div class="col-md-10">
+
+                <input type="text"
+                       id="amount"
+                       class="form-control"
+                       readonly />
+
+            </div>
+
+        </div>
+
+        <br />
+
+        <div class="form-group">
+
+            <div class="col-md-offset-2 col-md-10">
+
+                <input type="submit"
+                       value="Book Ticket"
+                       class="btn btn-primary" />
+
+            </div>
+
+        </div>
+
+    </div>
+}
+
+<br />
+
+@Html.ActionLink(
+    "View Bookings",
+    "Index",
+    "Booking"
+)
+
+<script>
+
+    $("#Movie_ID").change(function () {
+
+        var rate =
+            $("#Movie_ID option:selected").data("rate");
+
+        var tickets =
+            $("#no_tickets").val();
+
+        $("#amount").val(rate * tickets);
+
+    });
+
+
+    $("#no_tickets").keyup(function () {
+
+        var rate =
+            $("#Movie_ID option:selected").data("rate");
+
+        var tickets =
+            $("#no_tickets").val();
+
+        $("#amount").val(rate * tickets);
+
+    });
+
+</script>
